@@ -24,7 +24,9 @@ int main()
 
     int i0; // named, uninitailized
     int *p0 = new int;  // pi points to a dynamically allocated, unnamed, uninitialized int
+    cout << "sizeof(*p0):" << sizeof(*p0) << endl;
     delete p0;  // frees the memory to which pi points
+    cout << "sizeof(*p0):" << sizeof(*p0) << endl;
 
     // name initialized variables
     int i(1024);    // value of i is 1024
