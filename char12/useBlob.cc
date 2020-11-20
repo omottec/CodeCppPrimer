@@ -16,5 +16,10 @@ int main()
     cout << b1.size() << endl;
     for (auto it = b1.begin(); neq(it, b1.end()); it.incr())
         cout << it.deref() << endl;
+    
+    while (!b1.empty()) {
+        cout << b1.back() << endl;
+        b1.pop_back();
+    }
     return 0;
 }
