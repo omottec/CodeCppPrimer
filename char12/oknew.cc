@@ -39,6 +39,8 @@ int main()
 
     cout << "*pi:" << *pi
          << "\ti:" << i << endl
+         << "sizeof(*pi):" << sizeof(*pi)
+         << "\tsizeof(i):" << sizeof(i) << endl
          << "*ps:" << *ps
          << "\ts:" << s << endl;
     
