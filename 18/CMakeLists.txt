@@ -6,6 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(18
-        book.cc
-        bookexcept.h
-        Sales_item.h over.cc)
+        over.cc)
